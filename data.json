@@ -1,0 +1,229 @@
+[
+{
+"id":1,
+"name":"Albert",
+"class":"6",
+"address":"1240 Diamnond spring road #1345",
+"phone":"798413415",
+"isActive":false,
+
+"fees":[
+    {
+        "Tution Fee":789798,
+        "Hostel Fee":7878,
+        "Other Fee":78945
+
+    }
+]
+,
+"remakrs":"marketfeed started out in 2020 with a mission to democratise the stock market for all Indians",
+
+"marks":[
+    {
+        "subject":"Physics",
+        "total_makr":100,
+        "student_marks":74
+    },
+     {
+        "subject":"Chemistry",
+        "total_makr":100,
+        "student_marks":66
+    },
+    {
+        "subject":"Mathematics",
+        "total_makr":100,
+        "student_marks":77
+    },
+    {
+        "subject":"English",
+        "total_makr":100,
+        "student_marks":44
+    },
+    {
+        "subject":"Computer Fundanmentals",
+        "total_makr":100,
+        "student_marks":99
+    }
+]
+},
+{
+"id":2,
+"name":"Arun",
+"class":"6",
+"address":"1240 New York city #11",
+"phone":"990124787",
+"isActive":true,
+"fees":[
+    {
+        "Tution Fee":789798,
+        "Hostel Fee":7878,
+        "Other Fee":78945
+
+    }
+],
+"remakrs":"Our wild ambitions to ensure #tradingforall has pushed us to build cutting-edge applications and platforms that are set to redefine the trading experience for investors and traders.",
+"marks":[
+    {
+        "subject":"Physics",
+        "total_makr":100,
+        "student_marks":55
+    },
+     {
+        "subject":"Chemistry",
+        "total_makr":100,
+        "student_marks":36
+    },
+    {
+        "subject":"Mathematics",
+        "total_makr":100,
+        "student_marks":45
+    },
+    {
+        "subject":"English",
+        "total_makr":100,
+        "student_marks":98
+    },
+    {
+        "subject":"Computer Fundanmentals",
+        "total_makr":100,
+        "student_marks":63
+    }
+]
+
+},
+{
+"id":3,
+"name":"Anaswara",
+"class":"6",
+"address":"Bangalore Road , Indian Express #88",
+"phone":"998981345",
+"isActive":true,
+"fees":[
+    {
+        "Tution Fee":789798,
+        "Hostel Fee":7878,
+        "Other Fee":78945
+
+    }
+],
+"remakrs":"Our mission is to make trading possible for everyone",
+"marks":[
+    {
+        "subject":"Physics",
+        "total_makr":100,
+        "student_marks":55
+    },
+     {
+        "subject":"Chemistry",
+        "total_makr":100,
+        "student_marks":36
+    },
+    {
+        "subject":"Mathematics",
+        "total_makr":100,
+        "student_marks":45
+    },
+    {
+        "subject":"English",
+        "total_makr":100,
+        "student_marks":98
+    },
+    {
+        "subject":"Computer Fundanmentals",
+        "total_makr":100,
+        "student_marks":63
+    }
+]
+},
+{
+"id":4,
+"name":"Nobi",
+"class":"6",
+"address":"1240 Diamnond spring road #1345",
+"phone":"798413415",
+"isActive":true,
+"fees":[
+    {
+        "Tution Fee":789798,
+        "Hostel Fee":7878,
+        "Other Fee":78945
+
+    }
+],
+"remakrs":"Build India's largest community of financially independent & responsible individuals",
+"marks":[
+    {
+        "subject":"Physics",
+        "total_makr":100,
+        "student_marks":55
+    },
+     {
+        "subject":"Chemistry",
+        "total_makr":100,
+        "student_marks":36
+    },
+    {
+        "subject":"Mathematics",
+        "total_makr":100,
+        "student_marks":45
+    },
+    {
+        "subject":"English",
+        "total_makr":100,
+        "student_marks":98
+    },
+    {
+        "subject":"Computer Fundanmentals",
+        "total_makr":100,
+        "student_marks":63
+    }
+]
+},
+{
+"id":5,
+"name":"Kumar",
+"class":"7",
+"address":"1240 Circle Road , Ooty road #132",
+"phone":"798413415",
+"isActive":true,
+"fees":[
+    {
+        "Tution Fee":789798,
+        "Hostel Fee":7878,
+        "Other Fee":78945
+
+    }
+],
+"remakrs":"We strongly believe that it’s not just what you do that matters, it’s how you do it.",
+"marks":[
+    {
+        "subject":"Physics",
+        "total_makr":100,
+        "student_marks":55
+    },
+     {
+        "subject":"Chemistry",
+        "total_makr":100,
+        "student_marks":36
+    },
+    {
+        "subject":"Mathematics",
+        "total_makr":100,
+        "student_marks":45
+    },
+    {
+        "subject":"English",
+        "total_makr":100,
+        "student_marks":98
+    },
+    {
+        "subject":"Computer Fundanmentals",
+        "total_makr":100,
+        "student_marks":63
+    }
+]
+}
+
+
+
+]
