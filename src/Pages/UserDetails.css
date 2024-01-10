@@ -1,0 +1,22 @@
+.details{
+
+
+    margin: 20px;
+}
+
+
+.details-title{
+    background-color: gray;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+.details-details{
+
+    background-color: darksalmon;
+    padding: 10px;
+}

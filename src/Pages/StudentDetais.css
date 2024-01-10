@@ -1,0 +1,59 @@
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #eee;
+    background-color: white;
+}
+
+.tab-btn {
+    padding: 15px 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #777;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+.tabs a{
+    padding: 15px 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #777;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.tab-btn.active {
+    color: #333;
+    font-weight: bold;
+}
+
+.tab-btn:not(.active):hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #777;
+    transition: width 0.3s ease-in-out;
+}
+
+.tab-btn:not(.active):hover::before {
+    width: calc(100% - 30px);
+}
+
+
+.tab-content .tab-pane {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}

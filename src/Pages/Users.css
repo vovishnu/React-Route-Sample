@@ -1,0 +1,28 @@
+.userNamesList{
+
+    padding-left: 50px;
+    border: 1px solid #000;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.user-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    
+}
+
+.user-email{
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.user-dateofbirth{
+    
+}
+
+.serach-filter{
+    margin: 5px;
+    padding-left: 50px;
+}

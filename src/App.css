@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+/* Basic reset */
+* 
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav ul li {
+  display: inline;
+  margin-right: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Main styles */
+main {
+  padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  /* Add any styles you want for the active menu item */
+  /* For example, change color or background */
+  color: #ff4500;
+  /* Example color */
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  color: #ff4500;
+  /* Example color */
+  border-bottom: 2px solid #ff4500;
+  /* Underline effect */
+}
+
+/* Improved overall menu style */
+
+
+
+
+
+
+nav ul li a:hover {
+  color: #ff4500;
+  /* Example color on hover */
+}
+
+.page-not-found{
+  margin: 50px;
+}
+
+.page{
+  margin: 20px;
+}
+
+.student-list{
+    margin-bottom: 8px;
+   
+    background-color: #f0f0f0;
+  
+    padding: 8px;
+    border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     
+}
+
+.student-name{
+  padding-bottom: 10px;
+  font-weight: bold;
 }
