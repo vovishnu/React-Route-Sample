@@ -1,5 +1,8 @@
 import React from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom'
+import { Link, NavLink, Outlet } from 'react-router-dom';
+import LoginInOutlet from '../outlet/LoginInOutlet';
+import {clearUserInfo} from '../Utils/common';
+
 export default function Header() {
   return (
     <div>
@@ -8,13 +11,6 @@ export default function Header() {
     <nav>
       <ul>
        
-
-
-        {/* <li><Link to = "home" className='active'>Home</Link></li>
-        <li><Link to = "about">About</Link></li>
-        <li><Link to = "services">Services</Link></li>
-        <li><Link to = "portfolio">Portfolio</Link></li>
-        <li><Link to = "contact">Contact</Link></li> */}
 
 
 
@@ -29,6 +25,9 @@ export default function Header() {
         <li><NavLink to = "portfolio">Portfolio</NavLink></li>
         <li><NavLink to = "users">Users</NavLink></li>
         <li><NavLink to = "contact">Contact</NavLink></li>
+        <li><NavLink className="logout" to = "login" onClick={()=>{
+            clearUserInfo();
+        }}>Logout</NavLink></li>
 
 
       </ul>
@@ -37,8 +36,8 @@ export default function Header() {
 
 
    <div className='body'>
-
-    <Outlet/>
+          <LoginInOutlet />
+    
    </div>
     </div>
 
