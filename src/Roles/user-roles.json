@@ -1,0 +1,12 @@
+{
+
+    
+    "/portfolio/:studentid/remarks" : {
+            "roles":["admin"]
+    },
+
+    "/services":{
+        "roles":["admin"]
+    }
+
+}

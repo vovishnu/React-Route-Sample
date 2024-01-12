@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom';
+
 import LoginInOutlet from '../outlet/LoginInOutlet';
 import {clearUserInfo} from '../Utils/common';
+import PrivateNavLink from '../Links/PrivateNavLink';
 
 export default function Header() {
   return (
@@ -14,20 +15,20 @@ export default function Header() {
 
 
 
-        <li><NavLink to = "home" className={(obj)=>{
+        <li><PrivateNavLink to = "home" className={(obj)=>{
           const {isActive}=obj;
           return "test-me " + (isActive ? "active":"");
-        }}>Home</NavLink></li>
-        <li><NavLink to = "about" style={(obj)=>{
+        }}>Home</PrivateNavLink></li>
+        <li><PrivateNavLink to = "about" style={(obj)=>{
           
-        }}>About</NavLink></li>
-        <li><NavLink to = "services">Services</NavLink></li>
-        <li><NavLink to = "portfolio">Portfolio</NavLink></li>
-        <li><NavLink to = "users">Users</NavLink></li>
-        <li><NavLink to = "contact">Contact</NavLink></li>
-        <li><NavLink className="logout" to = "login" onClick={()=>{
+        }}>About</PrivateNavLink></li>
+        <li><PrivateNavLink to = "services">Services</PrivateNavLink></li>
+        <li><PrivateNavLink to = "portfolio">Portfolio</PrivateNavLink></li>
+        <li><PrivateNavLink to = "users">Users</PrivateNavLink></li>
+        <li><PrivateNavLink to = "contact">Contact</PrivateNavLink></li>
+        <li><PrivateNavLink className="logout" to = "login" onClick={()=>{
             clearUserInfo();
-        }}>Logout</NavLink></li>
+        }}>Logout</PrivateNavLink></li>
 
 
       </ul>

@@ -44,11 +44,11 @@ export default function Login() {
             <div className='login-error'>{error}</div>
             <div className="login-form">
             <div className="form-group">
-                <label for="username">Username:</label>
+                <label>Username:</label>
                 <input type="text"  value={userName}  onChange={onChangeUserName}></input>
             </div>
             <div className="form-group">
-                <label for="password">Password:</label>
+                <label >Password:</label>
                 <input type="password" value={password} onChange={onChangePassword}></input>
             </div>
             <div className="form-group">

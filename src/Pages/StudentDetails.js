@@ -1,12 +1,13 @@
 import React,{useState,useEffect} from 'react'
-import { useParams, useLocation, useNavigate, NavLink, Outlet } from 'react-router-dom'
+import { useParams, useLocation, useNavigate, Outlet } from 'react-router-dom'
 import './StudentDetais.css';
 import axios from 'axios';
+import PrivateNavLink from '../Links/PrivateNavLink';
 
 
 
 export default function StudentDetails() {
-    const {studentId} = useParams();
+    const {studentid} = useParams();
     
     
 
@@ -24,12 +25,12 @@ export default function StudentDetails() {
         axios("../data.json")
         .then((response)=>{
             const data = response.data;
-            setStudent(data.find((item)=> item.id===parseInt(studentId)));
+            setStudent(data.find((item)=> item.id===parseInt(studentid)));
         })
         }
         
 
-    },[studentId]);
+    },[studentid]);
 
     
 
@@ -63,9 +64,9 @@ export default function StudentDetails() {
 
                 <div class="tabs">
                
-                <NavLink to="" end className="tab-btn">Marks</NavLink>
-                <NavLink to="fees" className="tab-btn">Fees</NavLink>
-                <NavLink to="remarks" className="tab-btn">Remarks</NavLink>
+                <PrivateNavLink to="" end className="tab-btn">Marks</PrivateNavLink>
+                <PrivateNavLink to="fees" className="tab-btn">Fees</PrivateNavLink>
+                <PrivateNavLink to="remarks" className="tab-btn">Remarks</PrivateNavLink>
 
                 </div>
 
